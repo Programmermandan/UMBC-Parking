@@ -1,5 +1,5 @@
 <?php
-$mysqli = new mysqli("studentdb-maria.gl.umbc.edu","ssingh14","ssingh14","ssingh14");
+$mysqli = new mysqli("studentdb-maria.gl.umbc.edu","danieln3","danieln3","danieln3");
 if($mysqli->connect_error) {
   exit('Could not connect');
 }
