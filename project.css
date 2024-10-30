@@ -1,0 +1,94 @@
+/* Code written by Gana Abdelwahed, edited by Daniel Nguyen */
+
+header{
+text-align: center;
+}
+
+body{
+    font-family: Arial, sans-serif;
+	background-color: #e6b800;
+}
+
+h1, h2{
+    color: #333;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td{
+border: 1px solid #ddd;
+padding: 5px;
+text-align: left;
+}
+
+th {
+background-color: #f2f2f2;
+}
+
+/* we will have all the buttons in class selector  */
+.buttons{
+    
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.header{
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+h5{
+font-size:50px;
+text-align: center;
+}
+
+input{
+  width: 25%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.custom-select{
+  width: 25%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;	
+  font-size: 15px
+}
+#Reasoning{
+  width: 75%;
+  padding: 30px;
+ 
+  border: 1px solid #ccc;
+  border-radius: 5 pX;
+}
+
+#Submit{
+	width: 75%;
+	text-align: center;
+	margin-top: 25px;
+}
+
+.Center{
+	text-align: center;
+}
+	
+.Border{
+	border-width: 4px;
+	border-style: solid;
+	padding: 5px;
+	margin-top: 10px;
+}
+
+img{
+	float: left;
+}

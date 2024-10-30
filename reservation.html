@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="EN">
+
+<!-- Code written by Saachi Singh, edited by Daniel Nguyen and Gana Abdelwahed -->
+
+<head>
+	<title>Reserve Parking</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<link rel="stylesheet" type="text/css" href="project.css" />
+	<script type = "text/javascript" src = "reserve.js">
+	</script>
+</head>
+
+<body>
+	<div class="header">
+		<img src="https://tse2.mm.bing.net/th?id=OIP.9X3PMBIasTG_lJEwcLf8QQHaHa&pid=Api&P=0&h=220" 
+		alt="This is an image of the UMBC logo" style="width:100px;height:80px;">
+		<h5> Parking Reservation </h5>
+	</div>
+
+	<form name="Reserve" id="Reserve" method="post" action="reserve.php">		  
+		<p>
+		Enter your Student ID: <input type="text" name="stud_id" />
+		</p>
+
+		<label for="LOT">Select Lot</label>
+		<select class="custom-select" id="LOT" name="LOT">
+			
+			<option value="1"> Lot 1</option>
+			<option value="2"> Lot 2</option>
+			<option value="3"> Lot 3</option>
+			<option value="4"> Lot 4</option>
+			<option value="5"> Lot 5</option>
+			<option value="6"> Lot 6</option>
+			<option value="7"> Lot 7</option>
+			<option value="8"> Lot 8</option>
+			<option value="9"> Lot 9</option>
+			<option value="10"> Lot 10</option>
+			<option value= "11"> Lot 11</option>
+
+	   </select>
+	   <br /><br />
+	   <label for="Spot">Select Spot</label>
+		<select class="custom-select"id="Spot" name="Spot">
+						 
+				<option value="1"> Spot 1</option>
+				<option value="2"> Spot 2</option>
+				<option value="3"> Spot 3</option>
+				<option value="4"> Spot 4</option>
+				<option value="5"> Spot 5</option>
+		</select>
+		<br /><br />
+		<label for="start-time">Select a start time:</label>
+  		<input type="time" id="start" name="start">	
+		<br />
+		<label for="end-time">Select a end time:</label>
+  		<input type="time" id="end" name="end">	
+		<br /><br />
+		<input type="submit" value="Reserve">
+			
+</body>
+</html>

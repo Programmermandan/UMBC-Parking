@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Code written by Gana Abdelwahed, edited by Daniel Nguyen -->
+
+<head>
+	<title>Parking Report</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="stylesheet" type="text/css" href="project.css" />
+	<script type = "text/javascript" src = "report.js" >
+	</script>
+</head>
+
+<div class="header">
+<img src="https://tse2.mm.bing.net/th?id=OIP.9X3PMBIasTG_lJEwcLf8QQHaHa&pid=Api&P=0&h=220" 
+alt="This is an image of the UMBC logo" style="width:100px;height:80px;">
+<h5> Parking Report <h5/>
+</div>
+
+<h1> 
+<form name="Reporting_Form" action="report.php" method="POST">
+                   
+			<label for="LOT">Select Lot</label>
+            <select class="custom-select" id="lot" name="lot">
+                
+				<option value="1"> Lot 1</option>
+				<option value="2"> Lot 2</option>
+				<option value="3"> Lot 3</option>
+				<option value="4"> Lot 4</option>
+				<option value="5"> Lot 5</option>
+				<option value="6"> Lot 6</option>
+				<option value="7"> Lot 7</option>
+				<option value="8"> Lot 8</option>
+				<option value="9"> Lot 9</option>
+				<option value="10"> Lot 10</option>
+				<option value="11"> Lot 11</option>
+
+		   </select>
+                  <br /><br />
+
+			<label for="Spot_Number">Spot Number:</label>
+            <input type="text" id="Spot_Number" name="Spot_Number" required >
+            <br /><br />
+
+            <label for="Reasoning">Reasoning:</label>
+            <input type="text" id="Reasoning" name="Reasoning" required>
+            <br /><br />
+			<div class="Center">
+			<input type="Submit" value="Submit" id="Submit">
+			</div>
+<h1/> 
+</form>
+</body>
+</html>
