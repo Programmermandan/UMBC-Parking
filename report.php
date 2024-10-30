@@ -6,15 +6,12 @@
 <body>
 <?php
 
-// code written by Daniel Nguyen and fixed by Gana  
-//code written by Gana Abdelwahed 
 // Establish a database connection (Replace with your database credentials)
 
-
 $servername = "studentdb-maria.gl.umbc.edu";
-$username = "ssingh14";
-$password = "ssingh14";
-$dbname = "ssingh14";
+$username = "danieln3";
+$password = "danieln3";
+$dbname = "danieln3";
 
 $db = new mysqli($servername, $username, $password, $dbname);
 
